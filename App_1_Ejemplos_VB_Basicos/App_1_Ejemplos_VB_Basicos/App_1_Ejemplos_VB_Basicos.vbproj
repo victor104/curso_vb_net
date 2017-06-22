@@ -68,8 +68,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arcotangente.vb" />
+    <Compile Include="AreaCirculo.vb" />
+    <Compile Include="Booleanos.vb" />
+    <Compile Include="Calculadora.vb" />
+    <Compile Include="Edad_If.vb" />
+    <Compile Include="Edad_Select.vb" />
     <Compile Include="Ejemplo_If.vb" />
     <Compile Include="Ejemplo_If_String.vb" />
+    <Compile Include="If_Nulo.vb" />
+    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -85,6 +93,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TablaMultiplicar.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
